@@ -106,7 +106,7 @@ RAP : A Richly Annotated Dataset for Pedestrian Attribute Recognition
  
 ## Reference
 
-- https://github.com/dangweili/pedestrian-attribute-recognition-pytorch
-- https://github.com/huanghoujing/EANet
+Partial codes are based on the repository from [Dangwei Li](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch) 
+and [Houjing Huang](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch).
 
 
