@@ -110,3 +110,17 @@ Partial codes are based on the repository from [Dangwei Li](https://github.com/d
 and [Houjing Huang](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch).
 
 
+### Citation
+
+If you use this method or this code in your research, please cite as:
+
+    @misc{jia2020rethinking,
+        title={Rethinking of Pedestrian Attribute Recognition: Realistic Datasets with Efficient Method},
+        author={Jian Jia and Houjing Huang and Wenjie Yang and Xiaotang Chen and Kaiqi Huang},
+        year={2020},
+        eprint={2005.11909},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
+
+
