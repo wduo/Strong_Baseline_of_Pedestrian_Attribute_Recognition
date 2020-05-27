@@ -105,10 +105,10 @@ RAP : A Richly Annotated Dataset for Pedestrian Attribute Recognition
     CUDA_VISIBLE_DEVICES=0 python train.py PETA
     ``` 
  
-## Reference
+## Acknowledgements
 
-Partial codes are based on the repository from [Dangwei Li](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch) 
-and [Houjing Huang](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch).
+Codes are based on the repository from [Dangwei Li](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch) 
+and [Houjing Huang](https://github.com/dangweili/pedestrian-attribute-recognition-pytorch). Thanks for their released code.
 
 
 ### Citation
