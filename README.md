@@ -1,5 +1,6 @@
 ## A Strong Baseline of Pedestrian Attribute Recognition
 
+The code for our paper [Rethinking of Pedestrian Attribute Recognition: Realistic Datasets with Efficient Method](https://arxiv.org/abs/2005.11909)
 Considering the big performance gap of various SOTA baseline, we provide a solid and strong baseline for fair comparison.
 
 
