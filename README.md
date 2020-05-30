@@ -69,6 +69,12 @@ RAP : A Richly Annotated Dataset for Pedestrian Attribute Recognition
 - v2.0 [[Paper](https://ieeexplore.ieee.org/abstract/document/8510891)][[Project](http://www.rapdataset.com/)]
 
 
+## Pretrained Models
+
+Pretrained models are provided now at [Google Drive](https://drive.google.com/drive/folders/1t2SG7-jAalF8gx3uvApA6hUzVh_lR-y0?usp=sharing).
+
+Because we ran the experiments again, so there may be subtle differences in performance.
+
 ## Get Started
 1. Run `git clone https://github.com/valencebond/Strong_Baseline_of_Pedestrian_Attribute_Recognition.git`
 2. Create a directory to dowload above datasets. 
