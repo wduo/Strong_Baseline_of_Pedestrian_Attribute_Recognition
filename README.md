@@ -68,6 +68,11 @@ RAP : A Richly Annotated Dataset for Pedestrian Attribute Recognition
 - v1.0 [[Paper](https://arxiv.org/pdf/1603.07054v3.pdf)][[Project](http://www.rapdataset.com/)]
 - v2.0 [[Paper](https://ieeexplore.ieee.org/abstract/document/8510891)][[Project](http://www.rapdataset.com/)]
 
+## Zero-shot Protocal
+
+Realistic datasets of PETA and RAPv2 are provided at [Google Drive](https://drive.google.com/drive/folders/1vPtWyJ1Qjf0T6t3zPLi4EzXCMZ46Clqg?usp=sharing).
+
+You can just replace the 'dataset.pkl' with 'peta_new.pkl' or 'rapv2_new.pkl' to run experiments under new protocal.
 
 ## Pretrained Models
 
@@ -83,7 +88,7 @@ Because we ran the experiments again, so there may be subtle differences in perf
     mkdir data
 
     ```
-- Prepare datasets to have following structure:
+3. Prepare datasets to have following structure:
     ```
     ${project_dir}/data
         PETA
@@ -101,14 +106,14 @@ Because we ran the experiments again, so there may be subtle differences in perf
             RAP_dataset/
             RAP_annotation/
     ```
-- Run the `format_xxxx.py` to generate `dataset.pkl` respectively
+4. Run the `format_xxxx.py` to generate `dataset.pkl` respectively
     ```
     python ./dataset/preprocess/format_peta.py
     python ./dataset/preprocess/format_pa100k.py
     python ./dataset/preprocess/format_rap.py
     python ./dataset/preprocess/format_rap2.py
     ``` 
-- Train baseline based on resnet50
+5. Train baseline based on resnet50
     ```
     CUDA_VISIBLE_DEVICES=0 python train.py PETA
     ``` 
