@@ -6,6 +6,8 @@ The code for our paper [Rethinking of Pedestrian Attribute Recognition: Realisti
 Considering the big performance gap of various SOTA baseline, we provide a solid and strong baseline for fair comparison.
 
 
+## Update
+- 20200901 add infer.py
 
 ## Dependencies
 
